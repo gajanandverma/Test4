@@ -487,6 +487,13 @@ A threat model systematically analyzes and assesses potential security risks in 
         .stFileUploader label {
             color: white !important;
         }
+
+.selectbox label {
+            color: white !important;
+        }
+
+
+
       </style>
     """,
     unsafe_allow_html=True
