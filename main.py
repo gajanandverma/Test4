@@ -449,11 +449,15 @@ st.markdown(
     <style>
         /* Dark Background */
         .stApp {
-            background-color: #1E1E1E;  /* Dark Gray */
-            color: #FFFFFF;  /* White Text */
+            background-color: #FAF3E0;  /* Dark Gray */
+            color: #FFFFFF;  /* White Text 1E1E1E */
         }
 
-        
+        /* Heading Colors */
+        h1, h2, h3 {
+            color: #FFDD44;  /* Gold */
+            
+        }
 
         /* Sidebar Background */
         .css-1d391kg {
