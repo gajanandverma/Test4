@@ -193,7 +193,7 @@ st.set_page_config(
 st.sidebar.image("logo.png")
 
 # Add instructions on how to use the app to the sidebar
-st.sidebar.header("How to use TARA")
+# st.sidebar.header("How to use TARA")
 
 with st.sidebar:
     # Add model selection input field to the sidebar
@@ -356,39 +356,40 @@ with st.sidebar:
     st.markdown("""---""")
 
 # Add "About" section to the sidebar
-st.sidebar.header("About")
+# st.sidebar.header("About")
 
 with st.sidebar:
     st.markdown(
-        "Welcome to TARA, an AI-powered tool designed to help teams produce better threat models for their applications."
+       # "Welcome to TARA, an AI-powered tool designed to help teams produce better threat models for their applications."
     )
     st.markdown(
-        "Threat modelling is a key activity in the software development lifecycle, but is often overlooked or poorly executed. TARA aims to help teams produce more comprehensive threat models by leveraging the power of Large Language Models (LLMs) to generate a threat list, attack tree and/or mitigating controls for an application based on the details provided."
+        # "Threat modelling is a key activity in the software development lifecycle, but is often overlooked or poorly executed. TARA aims to help teams produce more comprehensive threat models by leveraging the power of Large Language Models (LLMs) to generate a threat list, attack tree and/or mitigating controls for an application based on the details provided."
     )
-    st.markdown("Created by [Matt Adams](https://www.linkedin.com/in/matthewrwadams/).")
+    # st.markdown("Created by [Matt Adams](https://www.linkedin.com/in/matthewrwadams/).")
     # Add "Star on GitHub" link to the sidebar
     st.sidebar.markdown(
-        "⭐ Star on GitHub: [![Star on GitHub](https://img.shields.io/github/stars/mrwadams/stride-gpt?style=social)](https://github.com/mrwadams/stride-gpt)"
+       # "⭐ Star on GitHub: [![Star on GitHub](https://img.shields.io/github/stars/mrwadams/stride-gpt?style=social)](https://github.com/mrwadams/stride-gpt)"
     )
     st.markdown("""---""")
 
 
 # Add "Example Application Description" section to the sidebar
-st.sidebar.header("Example Application Description")
+# st.sidebar.header("Example Application Description")
 
 with st.sidebar:
     st.markdown(
-        "Below is an example application description that you can use to test TARA:"
+        # "Below is an example application description that you can use to test TARA:"
     )
     st.markdown(
-        "> A web application that allows users to create, store, and share personal notes. The application is built using the React frontend framework and a Node.js backend with a MongoDB database. Users can sign up for an account and log in using OAuth2 with Google or Facebook. The notes are encrypted at rest and are only accessible by the user who created them. The application also supports real-time collaboration on notes with other users."
+       # "> A web application that allows users to create, store, and share personal notes. The application is built using the React frontend framework and a Node.js backend with a MongoDB database. Users can sign up for an account and log in using OAuth2 with Google or Facebook. The notes are encrypted at rest and are only accessible by the user who created them. The application also supports real-time collaboration on notes with other users."
     )
     st.markdown("""---""")
 
 # Add "FAQs" section to the sidebar
-st.sidebar.header("FAQs")
+# st.sidebar.header("FAQs")
 
 with st.sidebar:
+    
     st.markdown(
         """
     ### **What is STRIDE?**
