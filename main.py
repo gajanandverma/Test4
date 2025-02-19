@@ -441,7 +441,7 @@ A threat model systematically analyzes and assesses potential security risks in 
     st.markdown("""---""")
     
     # Two column layout for the main app content
-    col1, col2 = st.columns([1, 1])
+    col1, col2 = st.columns([2, 1])
 
     # Initialize app_input in the session state if it doesn't exist
     if 'app_input' not in st.session_state:
