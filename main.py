@@ -437,23 +437,26 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["Risk Report", "Exploit Chain", "Counter
 
 # *************************** GV ***************************
 
+
+st.set_page_config(page_title="Dark Mode Streamlit UI", layout="wide")
+
 st.markdown(
     """
     <style>
-        /* Cyber Blue Background */
+        /* Dark Background */
         .stApp {
-            background-color: #0D1B2A;  /* Deep Blue */
-            color: #E0E1DD;  /* Light Gray Text */
+            background-color: #1E1E1E;  /* Dark Gray */
+            color: #FFFFFF;  /* White Text */
         }
 
         /* Heading Colors */
         h1, h2, h3 {
-            color: #00A8E8;  /* Neon Blue */
+            color: #FFDD44;  /* Gold */
         }
 
         /* Sidebar Background */
         .css-1d391kg {
-            background-color: #001F3F;  /* Dark Navy */
+            background-color: #333333;  /* Dark Sidebar */
         }
     </style>
     """,
