@@ -360,10 +360,10 @@ with st.sidebar:
 
 with st.sidebar:
     st.markdown(
-       # "Welcome to TARA, an AI-powered tool designed to help teams produce better threat models for their applications."
+        "Welcome to TARA, an AI-powered tool designed to help teams produce better threat models for their applications."
     )
     st.markdown(
-        # "Threat modelling is a key activity in the software development lifecycle, but is often overlooked or poorly executed. TARA aims to help teams produce more comprehensive threat models by leveraging the power of Large Language Models (LLMs) to generate a threat list, attack tree and/or mitigating controls for an application based on the details provided."
+         "Threat modelling is a key activity in the software development lifecycle, but is often overlooked or poorly executed. TARA aims to help teams produce more comprehensive threat models by leveraging the power of Large Language Models (LLMs) to generate a threat list, attack tree and/or mitigating controls for an application based on the details provided."
     )
     # st.markdown("Created by [Matt Adams](https://www.linkedin.com/in/matthewrwadams/).")
     # Add "Star on GitHub" link to the sidebar
@@ -408,7 +408,7 @@ with st.sidebar:
     No, TARA does not store your application description or other details. All entered data is deleted after you close the browser tab.
     """
     )
-    
+
     st.markdown(
         """
     ### **Why does it take so long to generate a threat model?**
