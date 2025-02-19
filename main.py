@@ -450,8 +450,8 @@ st.markdown(
 
         /* Heading Colors */
         h1, h2, h3 {
-            /* color: #FFDD44;   Gold */
-            color: #FFFFFF;  /* White Text */
+            color: #FFDD44;  /* Gold */
+            
         }
 
         /* Sidebar Background */
