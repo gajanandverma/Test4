@@ -182,7 +182,7 @@ load_env_variables()
 # ------------------ Streamlit UI Configuration ------------------ #
 
 st.set_page_config(
-    page_title="TARA",
+    page_title="GV- TARA",
     page_icon=":shield:",
     layout="wide",
     initial_sidebar_state="expanded",
