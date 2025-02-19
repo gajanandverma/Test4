@@ -453,11 +453,7 @@ st.markdown(
             color: #FFFFFF;  /* White Text */
         }
 
-        /* Heading Colors */
-        h1, h2, h3 {
-            color: #FFFFFF;  /* Gold */
-            
-        }
+        
 
         /* Sidebar Background */
         .css-1d391kg {
