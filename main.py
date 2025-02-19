@@ -408,6 +408,7 @@ with st.sidebar:
     No, TARA does not store your application description or other details. All entered data is deleted after you close the browser tab.
     """
     )
+    
     st.markdown(
         """
     ### **Why does it take so long to generate a threat model?**
