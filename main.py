@@ -435,13 +435,37 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["Risk Report", "Exploit Chain", "Counter
 
 
 
+st.markdown(
+    """
+    <style>
+        /* Change background color */
+        .stApp {
+            background-color: #F5F5DC;  /* Light beige */
+        }
+        
+        /* Change text color */
+        h1, h2, h3, h4, h5, h6 {
+            color: #FF5733;  /* Orange-red text */
+        }
+
+        /* Change sidebar background */
+        .css-1d391kg {
+            background-color: #D1E8E2;  /* Light teal */
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
 with tab1:
     st.markdown("""
 A threat model systematically analyzes and assesses potential security risks in applications and systems. It helps identify vulnerabilities and possible attack paths to strengthen defenses. Use this tab to create a threat model based on the STRIDE framework.""")
     st.markdown("""---""")
     
     # Two column layout for the main app content
-    col1, col2 = st.columns([2, 1])
+    col1, col2 = st.columns([1, 1])
 
     # Initialize app_input in the session state if it doesn't exist
     if 'app_input' not in st.session_state:
