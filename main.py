@@ -488,7 +488,8 @@ A threat model systematically analyzes and assesses potential security risks in 
             color: white !important;
         }
 
-.stselectbox label {
+/* Change the select box label color to white */
+        .stSelectbox label {
             color: white !important;
         }
 
