@@ -501,6 +501,12 @@ A threat model systematically analyzes and assesses potential security risks in 
         }
 
 
+/* Change text area label color to white */
+        .stTextArea label {
+            color: white !important;
+        }
+
+
       </style>
     """,
     unsafe_allow_html=True
@@ -604,7 +610,7 @@ A threat model systematically analyzes and assesses potential security risks in 
     # ------------------ Threat Model Generation ------------------ #
 
     # Create a submit button for Threat Modelling
-    threat_model_submit_button = st.button(label="Generate Threat Model")
+    threat_model_submit_button = st.button(label="Generate Risk Report")
 
     # If the Generate Threat Model button is clicked and the user has provided an application description
     if threat_model_submit_button and st.session_state.get('app_input'):
