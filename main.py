@@ -489,6 +489,18 @@ A threat model systematically analyzes and assesses potential security risks in 
         if model_provider == "OpenAI API" and selected_model in ["gpt-4-turbo", "gpt-4o", "gpt-4o-mini"]:
             uploaded_file = st.file_uploader("Upload architecture diagram", type=["jpg", "jpeg", "png"])
 
+            st.markdown(
+    """
+    <style>
+        /* Change the file uploader label color to white */
+        .stFileUploader label {
+            color: white !important;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
             if uploaded_file is not None:
                 if not openai_api_key:
                     st.error("Please enter your OpenAI API key to analyse the image.")
