@@ -433,12 +433,6 @@ with st.sidebar:
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["Risk Report", "Exploit Chain", "Countermeasures", "DREAD", "Scenarios"])
 
-[theme]
-primaryColor = "#FF4B4B"
-backgroundColor = "#F0F2F6"
-secondaryBackgroundColor = "#E8EAF6"
-textColor = "#262730"
-font = "monospace"
 
 
 with tab1:
