@@ -435,28 +435,32 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["Risk Report", "Exploit Chain", "Counter
 
 
 
+# *************************** GV ***************************
+
 st.markdown(
     """
     <style>
-        /* Change background color */
+        /* Dark Background */
         .stApp {
-            background-color: #F5F5DC;  /* Light beige */
-        }
-        
-        /* Change text color */
-        h1, h2, h3, h4, h5, h6 {
-            color: #FF5733;  /* Orange-red text */
+            background-color: #1E1E1E;  /* Dark Gray */
+            color: #FFFFFF;  /* White Text */
         }
 
-        /* Change sidebar background */
+        /* Heading Colors */
+        h1, h2, h3 {
+            color: #FFDD44;  /* Gold */
+        }
+
+        /* Sidebar Background */
         .css-1d391kg {
-            background-color: #D1E8E2;  /* Light teal */
+            background-color: #333333;  /* Dark Sidebar */
         }
     </style>
     """,
     unsafe_allow_html=True
 )
 
+# *************************** GV ***************************
 
 
 with tab1:
