@@ -368,13 +368,13 @@ with st.sidebar:
     # st.markdown("Created by [Matt Adams](https://www.linkedin.com/in/matthewrwadams/).")
     # Add "Star on GitHub" link to the sidebar
     st.sidebar.markdown(
-       # "⭐ Star on GitHub: [![Star on GitHub](https://img.shields.io/github/stars/mrwadams/stride-gpt?style=social)](https://github.com/mrwadams/stride-gpt)"
+       "⭐ Star on GitHub: [![Star on GitHub](https://img.shields.io/github/stars/mrwadams/stride-gpt?style=social)](https://github.com/mrwadams/stride-gpt)"
     )
     st.markdown("""---""")
 
 
 # Add "Example Application Description" section to the sidebar
-# st.sidebar.header("Example Application Description")
+st.sidebar.header("Example Application Description")
 
 with st.sidebar:
     st.markdown(
