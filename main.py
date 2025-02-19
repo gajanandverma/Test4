@@ -449,7 +449,7 @@ st.markdown(
     <style>
         /* Dark Background */
         .stApp {
-            background-color: #FAF3E0;  /* Dark Gray */
+            background-color: #1E1E1E;  /* Dark Gray */
             color: #1E1E1E;  /* White Text 1E1E1E */
         }
 
@@ -489,14 +489,14 @@ A threat model systematically analyzes and assesses potential security risks in 
         if model_provider == "OpenAI API" and selected_model in ["gpt-4-turbo", "gpt-4o", "gpt-4o-mini"]:
             uploaded_file = st.file_uploader("Upload architecture diagram", type=["jpg", "jpeg", "png"])
 
-            st.markdown(
-    """
-    <style>
+    st.markdown(
+      """
+      <style>
         /* Change the file uploader label color to white */
         .stFileUploader label {
             color: white !important;
         }
-    </style>
+      </style>
     """,
     unsafe_allow_html=True
 )
