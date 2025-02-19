@@ -189,34 +189,7 @@ st.set_page_config(
 )
 
 
-st.markdown(
-    """
-    <style>
-        /* Change the main page background */
-        .stApp {
-            background-color: #F0F2F6; /* Light Gray */
-            color: #333333;  /* Dark Gray Text */
-        }
 
-        /* Change the title and headers color */
-        h1, h2, h3, h4, h5, h6 {
-            color: #FF5733; /* Orange-Red */
-        }
-
-        /* Customize the sidebar */
-        .css-1d391kg {
-            background-color: #D1E8E2 !important; /* Light Teal */
-        }
-
-        /* Customize other text elements */
-        p {
-            font-size: 18px;
-            color: #222222; /* Darker Gray */
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 # ------------------ Sidebar ------------------ #
 
@@ -467,7 +440,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(["Risk Report", "Exploit Chain", "Counter
 
 # *************************** GV ***************************
 
-'''
+
 
 st.markdown(
     """
@@ -492,9 +465,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-
-'''
 
 
 # *************************** GV ***************************
