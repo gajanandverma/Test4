@@ -188,6 +188,36 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+
+st.markdown(
+    """
+    <style>
+        /* Change the main page background */
+        .stApp {
+            background-color: #F0F2F6; /* Light Gray */
+            color: #333333;  /* Dark Gray Text */
+        }
+
+        /* Change the title and headers color */
+        h1, h2, h3, h4, h5, h6 {
+            color: #FF5733; /* Orange-Red */
+        }
+
+        /* Customize the sidebar */
+        .css-1d391kg {
+            background-color: #D1E8E2 !important; /* Light Teal */
+        }
+
+        /* Customize other text elements */
+        p {
+            font-size: 18px;
+            color: #222222; /* Darker Gray */
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # ------------------ Sidebar ------------------ #
 
 st.sidebar.image("logo.png")
