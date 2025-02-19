@@ -308,7 +308,7 @@ with st.sidebar:
      
         .stApp {
             
-            color: #1E1E1E;  /* black Text */
+            color: #FFDD44;  /* black Text */
         }      
     </style>
     1. Enter your [Mistral API key](https://console.mistral.ai/api-keys/) and chosen model below 🔑
