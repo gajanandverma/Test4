@@ -454,7 +454,7 @@ st.markdown(
         }
 
         /* Heading Colors */
-        h1, h2, h3 {
+        h1, h2, {
             color: #FFDD44;  /* Gold */
             
         }
