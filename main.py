@@ -18,7 +18,7 @@ from dread import create_dread_assessment_prompt, get_dread_assessment, get_drea
 
 # ------------------ Helper Functions ------------------ #
 
-# Function to get user input for the application description and key details
+# Function to get user input for the application description and key details  
 def get_input():
     github_url = st.text_input(
         label="Enter GitHub repository URL (optional)",
