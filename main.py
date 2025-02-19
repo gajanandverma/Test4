@@ -303,6 +303,14 @@ with st.sidebar:
     if model_provider == "Mistral API":
         st.markdown(
         """
+
+          <style>
+     
+        .stApp {
+            
+            color: #1E1E1E;  /* black Text */
+        }      
+    </style>
     1. Enter your [Mistral API key](https://console.mistral.ai/api-keys/) and chosen model below 🔑
     2. Provide details of the application that you would like to threat model  📝
     3. Generate a threat list, attack tree and/or mitigating controls for your application 🚀
