@@ -494,6 +494,12 @@ A threat model systematically analyzes and assesses potential security risks in 
         }
 
 
+/* Change button label text color to black */
+        .stButton > button {
+            color: black !important;
+            font-weight: bold;
+        }
+
 
       </style>
     """,
