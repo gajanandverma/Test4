@@ -480,6 +480,18 @@ A threat model systematically analyzes and assesses potential security risks in 
     # Two column layout for the main app content
     col1, col2 = st.columns([1, 1])
 
+    st.markdown(
+      """
+      <style>
+        /* Change the file uploader label color to white */
+        .stFileUploader label {
+            color: white !important;
+        }
+      </style>
+    """,
+    unsafe_allow_html=True
+)
+
     # Initialize app_input in the session state if it doesn't exist
     if 'app_input' not in st.session_state:
         st.session_state['app_input'] = ''
