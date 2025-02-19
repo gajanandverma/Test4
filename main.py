@@ -445,7 +445,7 @@ st.markdown(
         /* Dark Background */
         .stApp {
             background-color: #1E1E1E;  /* Dark Gray */
-            color: #1E1E1E;  /* black Text */
+            color: #FFFFFF;  /* White Text */
         }
 
         /* Heading Colors */
