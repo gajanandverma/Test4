@@ -226,7 +226,8 @@ with st.sidebar:
 
 
 
-    """
+    """ ,
+    unsafe_allow_html=True
     )
         # Add OpenAI API key input field to the sidebar
         openai_api_key = st.text_input(
