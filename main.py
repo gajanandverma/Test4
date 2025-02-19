@@ -378,15 +378,15 @@ with st.sidebar:
 
 with st.sidebar:
     st.markdown(
-        # "Below is an example application description that you can use to test TARA:"
+        "Below is an example application description that you can use to test TARA:"
     )
     st.markdown(
-       # "> A web application that allows users to create, store, and share personal notes. The application is built using the React frontend framework and a Node.js backend with a MongoDB database. Users can sign up for an account and log in using OAuth2 with Google or Facebook. The notes are encrypted at rest and are only accessible by the user who created them. The application also supports real-time collaboration on notes with other users."
+        "> A web application that allows users to create, store, and share personal notes. The application is built using the React frontend framework and a Node.js backend with a MongoDB database. Users can sign up for an account and log in using OAuth2 with Google or Facebook. The notes are encrypted at rest and are only accessible by the user who created them. The application also supports real-time collaboration on notes with other users."
     )
     st.markdown("""---""")
 
 # Add "FAQs" section to the sidebar
-# st.sidebar.header("FAQs")
+st.sidebar.header("FAQs")
 
 with st.sidebar:
     
