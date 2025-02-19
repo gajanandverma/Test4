@@ -463,6 +463,16 @@ st.markdown(
         .css-1d391kg {
             background-color: #333333;  /* Dark Sidebar */
         }
+
+
+/* Change multiselect label color to white */
+        .stMultiSelect label {
+            color: white !important;
+        }
+
+
+
+
     </style>
     """,
     unsafe_allow_html=True
