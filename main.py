@@ -21,8 +21,19 @@ from dread import create_dread_assessment_prompt, get_dread_assessment, get_drea
 # Function to get user input for the application description and key details  
 def get_input():
     github_url = st.text_input(
-        # label="Enter GitHub repository URL (optional)",
-        <label style="color: white;">Enter GitHub repository URL (optional)</label>
+        
+        st.markdown(
+        """
+        <style>
+        label {
+            color: white !important;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+        
+        label="Enter GitHub repository URL (optional)",
         placeholder="https://github.com/owner/repo",
         key="github_url",
         help="Enter the URL of the GitHub repository you want to analyze.",
