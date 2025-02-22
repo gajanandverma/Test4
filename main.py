@@ -31,12 +31,12 @@ def get_input():
     </style>
     """,
     unsafe_allow_html=True,
-)            
+           
         label="Enter GitHub repository URL (optional)",
         placeholder="https://github.com/owner/repo",
         key="github_url",
         help="Enter the URL of the GitHub repository you want to analyze.",
-    )
+    ) ) 
 
     if github_url and github_url != st.session_state.get('last_analyzed_url', ''):
         if 'github_api_key' not in st.session_state or not st.session_state['github_api_key']:
