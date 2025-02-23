@@ -209,7 +209,7 @@ with st.sidebar:
     )
 
     if model_provider == "OpenAI API":
-    st.markdown(
+        st.markdown(
     """
     <div style="color: black;">
         <ol>
