@@ -232,12 +232,23 @@ with st.sidebar:
             st.session_state['openai_api_key'] = openai_api_key
 
         # Add model selection input field to the sidebar
-        selected_model = st.selectbox(
-            "Select the model you would like to use:",
-            ["gpt-4o", "gpt-4o-mini", "gpt-4-turbo"],
-            key="selected_model",
-            help="GPT-4o and GPT-4o mini are OpenAI's latest models and are recommended."
-        )
+st.markdown(
+    """
+    <style>
+    label {
+         color: black;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+selected_model = st.selectbox( 
+    "Select the model you would like to use:",
+    ["gpt-4o", "gpt-4o-mini", "gpt-4-turbo"],
+    key="selected_model",
+    help="GPT-4o and GPT-4o mini are OpenAI's latest models and are recommended."
+)
 
     if model_provider == "Azure OpenAI Service":
         st.markdown(
