@@ -709,7 +709,7 @@ vulnerabilities and prioritising mitigation efforts.
             st.warning("⚠️ Users are likely to encounter syntax errors when generating attack trees using local LLMs. Experiment with different local LLMs to assess their output quality, or consider using a hosted model provider to generate attack trees.")
         
         # Create a submit button for Attack Tree
-        attack_tree_submit_button = st.button(label="Generate Attack Tree")
+        attack_tree_submit_button = st.button(label="Exploit Chain")
         
         # If the Generate Attack Tree button is clicked and the user has provided an application description
         if attack_tree_submit_button and st.session_state.get('app_input'):
