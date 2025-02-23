@@ -906,7 +906,7 @@ scenarios.
     st.markdown("""---""")
                 
     # Create a submit button for Test Cases
-    test_cases_submit_button = st.button(label="Generate Test Cases")
+    test_cases_submit_button = st.button(label="Scenarios")
 
     # If the Generate Test Cases button is clicked and the user has identified threats
     if test_cases_submit_button:
