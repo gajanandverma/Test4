@@ -781,7 +781,7 @@ the security posture of the application and protect against potential attacks.
     st.markdown("""---""")
     
     # Create a submit button for Mitigations
-    mitigations_submit_button = st.button(label="Suggest Mitigations")
+    mitigations_submit_button = st.button(label="Countermeasures")
 
     # If the Suggest Mitigations button is clicked and the user has identified threats
     if mitigations_submit_button:
@@ -843,7 +843,7 @@ focusing on the most critical threats first. Use this tab to perform a DREAD ris
     st.markdown("""---""")
     
     # Create a submit button for DREAD Risk Assessment
-    dread_assessment_submit_button = st.button(label="Generate DREAD Risk Assessment")
+    dread_assessment_submit_button = st.button(label="DREAD-based Risk Review")
     # If the Generate DREAD Risk Assessment button is clicked and the user has identified threats
     if dread_assessment_submit_button:
         # Check if threat_model data exists
