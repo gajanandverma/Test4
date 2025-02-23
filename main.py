@@ -19,15 +19,33 @@ from dread import create_dread_assessment_prompt, get_dread_assessment, get_drea
 # ------------------ Helper Functions ------------------ #
 
 # Function to get user input for the application description and key details  
+import streamlit as st
+
+# Inject custom CSS to change all label text to white
+st.markdown(
+    """
+    <style>
+    label {
+         color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 def get_input():
-    github_url = st.text_input(      
-        
-                    
+    github_url = st.text_input(
         label="Enter GitHub repository URL (optional)",
         placeholder="https://github.com/owner/repo",
         key="github_url",
         help="Enter the URL of the GitHub repository you want to analyze.",
     )
+    return github_url
+
+# Example usage
+url = get_input()
+st.write("You entered:", url)
+
 
     if github_url and github_url != st.session_state.get('last_analyzed_url', ''):
         if 'github_api_key' not in st.session_state or not st.session_state['github_api_key']:
