@@ -234,16 +234,7 @@ with st.sidebar:
         # Add model selection input field to the sidebar
         selected_model = st.selectbox(
 
-            st.markdown(
-    """
-    <style>
-    label {
-         color: black;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+            
             "Select the model you would like to use:",
             ["gpt-4o", "gpt-4o-mini", "gpt-4-turbo"],
             key="selected_model",
