@@ -209,16 +209,18 @@ with st.sidebar:
     )
 
     if model_provider == "OpenAI API":
-        st.markdown(
-        """
-
-    
-    1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) and chosen model below 🔑
-    2. Provide details of the application that you would like to threat model  📝
-    3. Generate a threat list, attack tree and/or mitigating controls for your application 🚀
-
-    """ 
-    )
+    st.markdown(
+    """
+    <div style="color: black;">
+        <ol>
+            <li>Enter your <a href="https://platform.openai.com/account/api-keys">OpenAI API key</a> and chosen model below 🔑</li>
+            <li>Provide details of the application that you would like to threat model 📝</li>
+            <li>Generate a threat list, attack tree and/or mitigating controls for your application 🚀</li>
+        </ol>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
         # Add OpenAI API key input field to the sidebar
         openai_api_key = st.text_input(
             "Enter your OpenAI API key:",
