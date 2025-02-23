@@ -19,7 +19,7 @@ from dread import create_dread_assessment_prompt, get_dread_assessment, get_drea
 # ------------------ Helper Functions ------------------ #
 
 # Function to get user input for the application description and key details  
-import streamlit as st
+
 
 # Inject custom CSS to change all label text to white
 st.markdown(
@@ -42,9 +42,7 @@ def get_input():
     )
     return github_url
 
-# Example usage
-url = get_input()
-st.write("You entered:", url)
+
 
 
     if github_url and github_url != st.session_state.get('last_analyzed_url', ''):
